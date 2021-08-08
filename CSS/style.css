@@ -29,6 +29,12 @@ div.middle img{
     width:300px;
 
 }
+div.middle img.last{
+    border-radius: 30px;
+    width:300px;
+    height: 400px;
+
+}
 body{
     margin: 0em;
     margin-top: 0em;
@@ -84,6 +90,7 @@ body{
     line-height: 1.5;
     /* margin : 0 auto 100px auto; */
     margin-top: 100px;
+    margin-bottom: 120px;
     height: 300px;
     text-align: left;
 }
@@ -91,15 +98,15 @@ p{
     font-size: 1.5em;
 }
 .coding{
-    position: relative;
-    bottom: 50px;
+    /* position: relative; */
+    /* bottom: 50px; */
     float: left;
     margin-right: 100px;
     background-color: aqua;
 }
 .learn{
-    position: relative;
-    bottom: 50px;
+    /* position: relative;
+    bottom: 50px; */
     float: right;
     margin-left: 100px;
 }
@@ -123,6 +130,18 @@ p{
 }
 .btn:hover {opacity: 1}
 
-span{
+.last{
+    margin-right: 50px;
+}
+.skill-row>p{
+    margin-right: -100px;
+}
 
+#profilePic{
+    border-radius: 130px;
+    width: 250px;
+    height: 250px;
+    background-image: url('../images/Spider-Man\ Homecoming\ \(2017\)\ Phone\ Wallpaper\ Moviemania.jpeg');
+    background-position-x: -491px;
+    background-size: cover;
 }
